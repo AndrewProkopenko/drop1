@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drop1/static/css/main.f3f626f8.chunk.css",
+    "main.css": "/drop1/static/css/main.f8b2b84a.chunk.css",
     "main.js": "/drop1/static/js/main.e3e25ba7.chunk.js",
     "main.js.map": "/drop1/static/js/main.e3e25ba7.chunk.js.map",
     "runtime-main.js": "/drop1/static/js/runtime-main.75596311.js",
@@ -8,15 +8,15 @@
     "static/js/2.dcec913e.chunk.js": "/drop1/static/js/2.dcec913e.chunk.js",
     "static/js/2.dcec913e.chunk.js.map": "/drop1/static/js/2.dcec913e.chunk.js.map",
     "index.html": "/drop1/index.html",
-    "precache-manifest.0d14c66372b909ece0a78fcf36b81850.js": "/drop1/precache-manifest.0d14c66372b909ece0a78fcf36b81850.js",
+    "precache-manifest.f36bf14ec03e0e312d96360d6ccd2e87.js": "/drop1/precache-manifest.f36bf14ec03e0e312d96360d6ccd2e87.js",
     "service-worker.js": "/drop1/service-worker.js",
-    "static/css/main.f3f626f8.chunk.css.map": "/drop1/static/css/main.f3f626f8.chunk.css.map",
+    "static/css/main.f8b2b84a.chunk.css.map": "/drop1/static/css/main.f8b2b84a.chunk.css.map",
     "static/js/2.dcec913e.chunk.js.LICENSE.txt": "/drop1/static/js/2.dcec913e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.75596311.js",
     "static/js/2.dcec913e.chunk.js",
-    "static/css/main.f3f626f8.chunk.css",
+    "static/css/main.f8b2b84a.chunk.css",
     "static/js/main.e3e25ba7.chunk.js"
   ]
 }
