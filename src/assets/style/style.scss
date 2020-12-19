@@ -4,6 +4,7 @@
 @import '_header';
 @import '_services'; 
 @import '_price';  
+@import '_homepage';  
 // @import '_style-it911'; 
 
 html, body { 
@@ -168,6 +169,7 @@ main {
    margin-right: 30px;
    margin-bottom: 10px;
    margin-top: 10px;
+   max-width: 100%;
 
 }
 .img-float-right {
@@ -175,6 +177,7 @@ main {
    margin-left: 30px;
    margin-bottom: 10px;
    margin-top: 10px;
+   max-width: 100%;
 }
 
 .slogan-style { 
@@ -277,12 +280,22 @@ h1.module-title  {
    }
 }
 
+.heading-margin { 
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
 @media (max-width: 767px) { 
-   // .box-top { 
-   //    height: auto;
-   //    margin-bottom: 15px;
-   //    .title { 
-   //       margin-bottom: 15px;
-   //    }
-   // }
+   .heading-margin { 
+      margin-top: 30px;
+      margin-bottom: 15px;
+   }
+   .img-float-left { 
+      float: none; 
+      display: block;
+   }
+   .img-float-right { 
+      float: none;
+      display: block;
+   }
 }

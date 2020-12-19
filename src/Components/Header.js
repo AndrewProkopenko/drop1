@@ -62,7 +62,7 @@ function Header(props) {
                             {list.length > 0 && list.map((item, index) => {
                                 return (
                                     <li key={index} className="main-menu__item">
-                                        <NavLink className="main-menu__link" to={`/${item.slug}`}>
+                                        <NavLink className="main-menu__link font-weight-bold" to={`/${item.slug}`}>
                                             {item.title}
                                         </NavLink>
                                         {item['list-service-menu'] && item['list-service-menu'].length > 0 && <ul>
@@ -72,7 +72,7 @@ function Header(props) {
                                                         <NavLink
                                                             exact
                                                             to={`/${item.slug}/${innerItem.slug}`}
-                                                            className="main-menu__link">
+                                                            className="main-menu__link inner-link">
                                                             {innerItem.title}
                                                         </NavLink>
                                                     </li>

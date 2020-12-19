@@ -16,8 +16,15 @@ function SinglePageService(props) {
 
     const setModalHandleBtn = () => {
         const modalLinks = document.querySelectorAll('.td__btn')
+        const modalLinksCustom = document.querySelectorAll('.js-modal-btn')
 
         modalLinks.forEach( (item) => {
+            item.addEventListener('click', (e) => {
+                e.preventDefault()
+                props.handleShowModal()
+            })
+        })
+        modalLinksCustom.forEach( (item) => {
             item.addEventListener('click', (e) => {
                 e.preventDefault()
                 props.handleShowModal()

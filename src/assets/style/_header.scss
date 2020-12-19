@@ -36,7 +36,7 @@
                 }
                 a { 
                     text-decoration: none;
-                    display: block;
+                    display: block !important;
                     color: #222;
                     font-size: 16px;
                     padding: 12px 10px 12px 20px;
@@ -82,4 +82,9 @@
         }
         
     }
+}
+
+.inner-link { 
+    display: block;
+    text-align: left;
 }
