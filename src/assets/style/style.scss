@@ -280,6 +280,16 @@ h1.module-title  {
    }
 }
 
+.form-on-page { 
+   padding-left: 0;
+   padding-right: 0;
+   margin-top: 40px;
+   .form-section__title { 
+      font-size: 32px !important;
+      line-height: 35px !important;
+   }
+}
+
 .heading-margin { 
    margin-top: 40px;
    margin-bottom: 20px;

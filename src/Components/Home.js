@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import MetaTags from 'react-meta-tags';
   
 import hourIcon from '../assets/images/hour-icon.png'
+import introImage from '../assets/images/intro-img.jpg'
+
 function Home(props) { 
     
     const apiBase = process.env.REACT_APP_BASE_API_URL 
@@ -82,7 +84,7 @@ function Home(props) {
                     <meta name="description" content={props.data.meta.description} /> 
                 </MetaTags>
                 <main role="main" className="gry-bg home" >
-                    <div className="intro">
+                    <div className="intro" style={{backgroundImage: `url(${introImage})`}}>
                         <div className="container">
                             <div className="intro__content mb-5">
                                 <h1 className="title view-heavy">Срочная компьютерная помощь на дому!</h1>
